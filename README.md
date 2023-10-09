@@ -25,13 +25,13 @@ import "payment.css"
 Un ejemplo de como funciona es asi:
 
 ```html
-<div class="icons short icon-american-express-light"></div>
+<div class="pay_icons short icon-american-express-light"></div>
 ```
 
 Las clases de css son:
 
 - Etiquetas principales
-  - .icons: Esta sirve para indicar que es un icono y no tiene ningun tamaño
+  - .pay_icons: Esta sirve para indicar que es un icono y no tiene ningun tamaño
 - Etiquetas de dimensiones del icono
   - .short: 40px x 25.2px
   - .medium: 55px x 34.65px
