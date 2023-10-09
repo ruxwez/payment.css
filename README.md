@@ -1,6 +1,6 @@
 # payment.css
 
-## ¿Como se instala?
+## How is it installed?
 To import the package into JS you can use the npm command:
 ```
 npm install payment.css
@@ -27,8 +27,6 @@ An example of how it works is as follows:
 ```html
 <div class="pay_icons short icon-american-express-light"></div>
 ```
-
-Las clases de css son:
 
 The css classes are:
 
