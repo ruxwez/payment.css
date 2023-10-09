@@ -1,8 +1,10 @@
 .icons {
-  width: 40px;
-  height: 25.2px;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.icons.short {
+  width: 40px;
+  height: 25.2px;
 }
 .icons.medium {
   width: 55px;
