@@ -1,0 +1,26 @@
+{
+  "name": "payment.css",
+  "version": "1.0.0",
+  "description": "Una biblioteca CSS para mostrar iconos de tarjetas de crédito de forma elegante y eficiente.",
+  "main": "./dist/icons.min.css",
+  "style": "./dist/icons.min.css",
+  "scripts": {
+    "compile": "sass ./icons.scss ./dist/icons.css --no-source-map",
+    "minify": "cleancss -o ./dist/icons.min.css ./dist/icons.css",
+    "build": "npm run compile && npm run minify"
+  },
+  "keywords": [
+    "css",
+    "icons",
+    "credit cards",
+    "payment",
+    "UI",
+    "design system"
+  ],
+  "author": "Ruxwez",
+  "license": "MIT",
+  "dependencies": {
+    "clean-css-cli": "^5.6.2",
+    "sass": "^1.69.0"
+  }
+}
